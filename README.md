@@ -1,16 +1,65 @@
-# React + Vite
+# TechPulse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TechPulse is a modern, responsive React application for reading the latest tech news. Designed with a clean and intuitive interface, it provides users with a seamless reading experience, whether on a desktop or mobile device.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Personalized News Feed:** Browse a grid of news articles that load dynamically.
+- **Categorized News:** Filter news by categories easily from the application interface.
+- **Search Capabilities:** Search for specific topics or articles using the integrated search bar.
+- **Bookmarks:** Save your favorite articles to read later, managed seamlessly via BookmarkContext.
+- **Theming:** Support for different themes (like Dark/Light mode) through ThemeContext.
+- **Responsive Design:** Optimized for a variety of screen sizes.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React:** Core library for building the UI components.
+- **React Router:** For seamless client-side navigation.
+- **Vite:** Next-generation frontend tooling for fast development and building.
+- **Context API:** For state management (Theme and Bookmarks).
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repository
+2. Navigate to the project directory:
+   ```bash
+   cd scratch
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the App Locally
+
+To start the development server, run:
+
+```bash
+npm run dev
+```
+
+The app will typically be available at `http://localhost:5173`.
+
+### Building for Production
+
+To create a production build, run:
+
+```bash
+npm run build
+```
+
+This will output the static files to the `dist` directory, which can be deployed to any static web hosting service.
+
+## Linting
+
+To run ESLint and check for code quality issues:
+
+```bash
+npm run lint
+```
