@@ -1,3 +1,6 @@
+**Youtube video link** - https://youtu.be/hhA5p69Vph8
+**Github page link** - https://geethapriya-s.github.io/TechPulse/
+
 # TechPulse
 
 TechPulse is a modern, responsive React application for reading the latest tech news. Designed with a clean and intuitive interface, it provides users with a seamless reading experience, whether on a desktop or mobile device.
